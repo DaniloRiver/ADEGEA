@@ -1,3 +1,8 @@
+body{
+    background-color: #377970;
+}
+
+
 .text-platzi{
     color: #97c93e !important;
 }
@@ -14,7 +19,7 @@
 }
 
 .btn-adegea{
-    background-color: #97c93e;
+    background-color: #1f3905;
     color: white;
     border: none;
 }
@@ -56,12 +61,15 @@
 }
 
 #place-time{
-    background-color: #343a40;
+    background-color: #30523f;
     color: white;
 }
 
 #place-time img{
+    padding-top: 50px;
+    padding-left: 8px;
     max-width: 100%;
+    max-height: 140%;
 }
 
 #footer{
@@ -72,3 +80,134 @@
     text-decoration:none;
     color: white;
 }
+
+/* Efectos cARD */
+.card {
+    transition: transform 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    background:#30523f;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  .card button {
+    transition: background-color 0.2s ease-in-out;
+    
+  }
+  
+  .card button:hover {
+    background-color: #f5f5f5;
+  }  
+
+  .card-title{
+    color:#1ab5f2;
+  }
+
+/* Efectos Card */
+
+
+/* Servicios */
+
+#servicios {
+    display: flex;
+    align-items: center;
+}
+#servicios .card-title{
+   color:white;
+   font-weight: bold;
+}
+#servicios .card{
+  background-color: #377970;
+}
+
+.card2{
+    align-items: center;
+}
+
+.card-img-top1{
+    width: 70px;
+}
+
+
+/* Estilos para la primera fila de logos (5 logos) */
+.fila-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+  
+  .fila-1 img{
+    width: 85px;
+  }
+  
+  .fila-1-servicio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .fila-1-servicio img{
+    width: 50px;
+  }
+  
+  
+  /* Estilos para la segunda fila de logos (4 logos) */
+
+/* servicios */
+
+/* Titulo effect */
+.ml14 {
+    font-weight: 400;
+    font-size: 2.5em;
+    color: white;
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.1em;
+    padding-right: 0.5em;
+    padding-bottom: 0.15em;
+    text-align: center; /* Alineación de texto centrada */
+    white-space: nowrap; /* Evitar que el texto se desborde en pantallas pequeñas */
+  }
+  
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 5;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1.5em;
+  }
+
+  .ml3 {
+    font-weight: 400;
+    font-size: 2.5em;
+    color: white;
+  }
+
+  .ml3 .text-wrapper1 {
+    position: relative;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding-top: 0.1em;
+    padding-right: 0.5em;
+    padding-bottom: 0.15em;
+    text-align: center; /* Alineación de texto centrada */
+    white-space: nowrap; /* Evitar que el texto se desborde en pantallas pequeñas */
+  }
